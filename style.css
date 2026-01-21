@@ -60,9 +60,16 @@ body{
 .Div02{
     display: flex; /* Usando flexbox para juntar os elementos */
     justify-content: center;
+    gap: 20px; /* Espaço entre os elementos */
 }
 .botao{
-    display: inline; /* Usando para juntar os botões horizontalmente */
-    gap: 20px; /* Espaço entre os botões */
-    margin-top: 30px; /* Espaço do item superior */
+    background-color: #e2b101; /* Cor de fundo do botão */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: #f4f5f5; /* Cor do texto do botão */
+    font-size: 20px; /* Tamanho do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 10px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */;
+    box-shadow: 0 0 10px #C89A04; /* Sombra do botão */
 }
