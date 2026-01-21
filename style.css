@@ -1,3 +1,68 @@
-p{
-    color: blueviolet;
+body{
+    background-color: #030D2C; /* Cor do fundo da página */
+    color: #f4f5f5; /* Cor do texto */
+    font-family: 'Courier New', Courier, monospace; /* Fonte do texto */
+    line-height: 1.3; /* Espaçamento entre linhas */
+}
+
+.MVName{
+    display: flex; /* Usando flexbox para juntar os nomes */
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 20px; /* Espaço entre os nomes */
+    margin-top: 30px; /* Espaço do item superior */
+}
+#NameMax{
+    text-align: center; /* Centraliza o texto */
+    font-size: 50px; /* Tamanho do texto */
+    color: #CC1E4A; /* Cor do texto */
+    text-transform: uppercase; /* Deixa o texto em maiúsculas */
+    text-shadow: 2px 2px 4px #000000; /* Sombra do texto */
+}
+#NameVes{
+    text-align: center; /* Centraliza o texto */
+    font-size: 50px; /* Tamanho do texto */
+    color: #FFc906; /* Cor do texto */
+    text-transform: uppercase; /* Deixa o texto em maiúsculas */
+    text-shadow: 2px 2px 4px #000000; /* Sombra do texto */
+
+}
+.Div01{
+    display: inline; /* Usando inline para juntar os elementos */
+    gap: 5px; /* Espaço entre a imagem e o texto */
+    margin-top: 30px; /* Espaço do item superior */
+}
+
+.Divsub01{
+    display: flex; /* Usando flexbox para juntar os elementos horizontalmente */
+    gap: 20px; /* Espaço entre a imagem e o texto */
+    margin-top: 30px; /* Espaço do item superior */
+}
+
+#imgMax{
+    width: 400px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    display: block; /* Exibe junto */
+    margin: 0 auto; /* Centraliza a imagem */
+    border: 5px solid #CC1E4A; /* Borda da imagem */
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px #CC1E4A; /* Sombra da imagem */
+}
+.texto{
+    color: #f4f5f5;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    background-color: #121f45;
+    border: 5px solid #121f45;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #121f45;
+}
+.Div02{
+    display: flex; /* Usando flexbox para juntar os elementos */
+    justify-content: center;
+}
+.botao{
+    display: inline; /* Usando para juntar os botões horizontalmente */
+    gap: 20px; /* Espaço entre os botões */
+    margin-top: 30px; /* Espaço do item superior */
 }
